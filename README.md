@@ -1,2 +1,2 @@
-# Msc_Bioinfo_notes
-Notes for my Bioinformatics course
+# Sem1_msc_notes
+Notes for the first semester of my Bioinformatics course.
