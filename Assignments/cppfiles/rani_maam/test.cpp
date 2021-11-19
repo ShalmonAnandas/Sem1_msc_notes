@@ -1,35 +1,19 @@
-// C++ program to explain
-// multiple inheritance
+//write a program to find out type of triangle from sides
+
 #include <iostream>
+
 using namespace std;
- 
-// first base class
-class Vehicle {
-  public:
-    Vehicle()
-    {
-      cout << "This is a Vehicle" << endl;
-    }
-};
- 
-// second base class
-class FourWheeler {
-  public:
-    FourWheeler()
-    {
-      cout << "This is a 4 wheeler Vehicle" << endl;
-    }
-};
- 
-// sub class derived from two base classes
-class Car: public Vehicle, public FourWheeler {
- 
-};
- 
-// main function
+
 int main()
-{  
-    // creating object of sub class will
-    // invoke the constructor of base classes
-    Car obj;
+{
+	int a, b, c;
+	cout << "Enter the length of sides of triangle: ";
+	cin >> a >> b >> c;
+	if (a == b && b == c)
+		cout << "Equilateral triangle";
+	else if (a == b || b == c || c == a)
+		cout << "Isosceles triangle";
+	else
+		cout << "Scalene triangle";
+	return 0;
 }
