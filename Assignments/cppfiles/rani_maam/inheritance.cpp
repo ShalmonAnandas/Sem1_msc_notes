@@ -9,7 +9,7 @@ class Stu
     public:
     Stu()	// constructor for Stu class
     {
-        cout << "\nStudent name is Shalmon Anandas";
+        cout << "\nStudent name is Rucha Divekar";
     }
 };
 
