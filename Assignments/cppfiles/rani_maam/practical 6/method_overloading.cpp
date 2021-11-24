@@ -9,12 +9,12 @@ class Addition
 {
     public:
         //function to add two numbers
-        int add_two(int a, int b)
+        int add(int a, int b)
         {
             return a+b;
         }
         //function to add three numbers
-        int add_three(int a, int b, int c)
+        int add(int a, int b, int c)
         {
             return a+b+c;
         }
@@ -26,8 +26,8 @@ int main()
     int a, b, c;
     cout<<"Enter two numbers: ";
     cin>>a>>b;
-    cout<<"Sum of two numbers is: "<<obj.add_two(a,b)<<endl;
+    cout<<"Sum of two numbers is: "<<obj.add(a,b)<<endl;
     cout<<"Enter three numbers: ";
     cin>>a>>b>>c;
-    cout<<"Sum of three numbers is: "<<obj.add_three(a,b,c)<<endl;
+    cout<<"Sum of three numbers is: "<<obj.add(a,b,c)<<endl;
 }
