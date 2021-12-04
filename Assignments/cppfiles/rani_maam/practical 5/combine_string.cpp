@@ -1,10 +1,6 @@
-// combine two stings using strcat
-
 #include <iostream>
 #include <string.h>
-
 using namespace std;
-
 int main()
 {
     char str[100];

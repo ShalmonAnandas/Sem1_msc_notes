@@ -1,10 +1,5 @@
-// program to calculate are of triangle using single inheritance
-
 #include <iostream>
-
 using namespace std;
-
-//class to calculate area of circle using public variables
 class Radius
 {
     public:
@@ -15,7 +10,6 @@ class Radius
             cin>>radius;
         }
 };
-
 class Area : public Radius
 {
     public:
@@ -24,7 +18,6 @@ class Area : public Radius
             cout<<"Area of circle is: "<<3.14*radius*radius<<endl;
         }
 };
-
 int main()
 {
     Area a;

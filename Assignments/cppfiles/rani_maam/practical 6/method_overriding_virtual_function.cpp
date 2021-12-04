@@ -1,10 +1,5 @@
-// program to demonstrate function overriding and virtual function
-
 #include <iostream>
-
 using namespace std;
-
-// base class
 class Base
 {
     public:
@@ -17,7 +12,6 @@ class Base
             cout << "display base class on compile" << endl;
         }
 };
-
 class Derived : public Base
 {
     public:
@@ -30,7 +24,6 @@ class Derived : public Base
             cout << "display derived class on runtime" << endl;
         }
 };
-
 int main()
 {
     Base* bptr;

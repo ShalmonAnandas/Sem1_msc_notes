@@ -1,10 +1,5 @@
-// program to calculate area of circle using private varirables
-
 #include <iostream>
-
 using namespace std;
-
-//class to calculate area of circle using private varirables
 class circle
 {
     private:
@@ -23,7 +18,6 @@ class circle
             return 3.14 * radius * radius;
         }
 };
-
 int main()
 {
     circle c;

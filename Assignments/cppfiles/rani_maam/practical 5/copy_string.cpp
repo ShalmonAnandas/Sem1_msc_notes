@@ -1,10 +1,6 @@
-//copy a string into another string using strcpy
-
 #include <iostream>
 #include <string.h>
-
 using namespace std;
-
 int main()
 {
     char str[100];

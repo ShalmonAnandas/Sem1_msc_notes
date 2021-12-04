@@ -1,9 +1,5 @@
-//write a c++ program that takes an input and print its multiplication upto 10
-
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     int num, mul;

@@ -1,10 +1,5 @@
-//program to demonstrate multi level inheritance
-
 #include <iostream>
-
 using namespace std;
-
-//class to show student name, id
 class Student
 {
     private:
@@ -24,8 +19,6 @@ class Student
             cout<<"Student id: "<<id;
         }
 };
-
-// class to show student marks
 class Marks : public Student
 {
     private:
@@ -59,8 +52,6 @@ class Marks : public Student
             cout<<"\nAverage: "<<avg;
         }
 };
-
-// class to show student course details
 class Course : public Marks
 {
     private:
@@ -86,7 +77,6 @@ class Course : public Marks
             cout<<"\nYear: "<<year;
         }
 };
-
 int main()
 {
     Course c;

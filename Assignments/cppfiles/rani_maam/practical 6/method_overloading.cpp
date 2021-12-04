@@ -1,10 +1,5 @@
-//add 2 and 3 numbers using method overloading
-
 #include <iostream>
-
 using namespace std;
-
-// class to add two and three numbers
 class Addition
 {
     public:
@@ -19,7 +14,6 @@ class Addition
             return a+b+c;
         }
 };
-
 int main()
 {
     Addition obj;

@@ -1,9 +1,5 @@
-//write a c++ program to print highest number from 3 entered numbers
-
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     int a, b, c, highest;

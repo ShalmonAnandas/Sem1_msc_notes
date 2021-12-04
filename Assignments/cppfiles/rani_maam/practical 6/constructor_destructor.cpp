@@ -1,9 +1,5 @@
-//write a program to demonstrate the use of constructors and destructors
-
 #include <iostream>
-
 using namespace std;
-
 class Simple
 {
     public:
@@ -16,7 +12,6 @@ class Simple
             cout << "Destructor called" << endl;
         }
 };
-
 int main()
 {
     Simple s;

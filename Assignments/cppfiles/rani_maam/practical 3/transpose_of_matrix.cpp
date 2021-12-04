@@ -1,15 +1,9 @@
-// transpose of a 3x3 matrix
-
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     int i, j;
-
     int matrix[3][3];
-
     cout << "Enter the value for the 3x3 matrix::\n";
     for (i = 0; i < 3; i++)
     {
@@ -18,7 +12,6 @@ int main()
             cin >> matrix[i][j];
         }
     }
-
     cout << "The transpose of the matrix is:\n";
     for (i = 0; i < 3; i++)
     {
